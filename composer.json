@@ -1,0 +1,14 @@
+{
+    "name": "mttjohnson/module-sample-minimal-register",
+    "description": "N/A",
+    "require": {
+        "magento/framework": "1.0.0-beta"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Mttjohnson\\SampleMinimalRegister\\": ""
+        }
+    }
+}
